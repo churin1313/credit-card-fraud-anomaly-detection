@@ -79,6 +79,8 @@ The notebook performs:
 9. Creates a final detection function as a whole
 10. Tests the function using a piece of the dataset
 
-The final output should show you DRIFT DETECTED or NO SIGNIFICANT DRIFT as well as whether a given transaction is fraud or not
+The final output should show you DRIFT DETECTED or NO SIGNIFICANT DRIFT as well as whether a given transaction is fraud or not.
+
+Check the `/docs/PROJECT_DESCRIPTION.md` for the complete explanation of the code, as well as key design decisions. 
 
 
