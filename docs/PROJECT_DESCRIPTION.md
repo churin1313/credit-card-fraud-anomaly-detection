@@ -123,7 +123,8 @@ Since real monetary costs could not be analysed, qualitative cost comparison was
 
 A threshold of 0.4 was selected because it provides a good balance between these two error types. At this threshold, the model achieves 95.18% precision and 80.61% recall, with only 4 false positives and 19 false negatives. 
 Compared with the default threshold of 0.5, lowering the threshold to 0.4 adds only one false positive but detects six additional fraudulent transactions. 
-This can be considered as an acceptable trade off between both sides (for the given data), but a real deployment would probably change the value based on real financial considerations.
+This can be considered as an acceptable trade off between both sides (for the given data), but a real deployment would probably change the value based on real financial considerations.. 
+
 ---
 
 ## 9. Drift Detection
