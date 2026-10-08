@@ -168,11 +168,20 @@ The main design decisions were:
 
 ---
 
-## 11. Final Results
+## 11. Bonus objective
+
+A shifted data slice was injected to simulate drift, and the system was tested to check whether drift occured. 
+The values V1, V2, and Amount were shifted to create a change in their distributions. The same KS-test-based monitoring procedure was then applied to the modified data. The injected changes increased the KS statistics for the affected features, allowing the monitoring system to identify the shifted data and evaluate the retraining alert condition.
+
+---
+
+## 12. Final Results
 
 The supervised Random Forest model significantly outperformed the unsupervised Isolation Forest model, achieving a PR-AUC of 85.42% compared with 21.80%.
 
 Threshold analysis showed that changing the Random Forest threshold from 0.50 to 0.40 improved recall from 74.49% to 80.61% while maintaining 95.18% precision.
 
 The drift monitoring component detected meaningful distribution changes in 14 of 29 monitored features, exceeding the 20% alert threshold and resulting in a retraining recommendation.
+
+Finally, the system was tested to check whether drift was properly detected and whether transaction validity check was accurate.
 
