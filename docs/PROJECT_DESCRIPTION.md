@@ -71,7 +71,7 @@ Isolation Forest achieved:
 
 The result is substantially lower than the Random Forest PR-AUC of 85.42%.
 
-This shows that not all statiscal outliers can be considered as fraudulent. However, Isolation Forest is still valuable for comparison.
+This shows that not all statistical outliers can be considered as fraudulent. However, Isolation Forest is still valuable for comparison.
 
 The two models are used purely for comparison, and the final detection only uses Random Forest since it achieved a better result.
 ---
